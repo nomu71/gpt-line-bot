@@ -15,7 +15,8 @@
       "function": {
         "gptLineBotFunction": {
           "deploymentBucketName": "amplify-gptlinebot-dev-140650-deployment",
-          "s3Key": "amplify-builds/gptLineBotFunction-6a4346427433684f314e-build.zip"
+          "s3Key": "amplify-builds/gptLineBotFunction-6a4346427433684f314e-build.zip",
+          "secretsPathAmplifyAppId": "dfty365l2nu2"
         }
       },
       "api": {
