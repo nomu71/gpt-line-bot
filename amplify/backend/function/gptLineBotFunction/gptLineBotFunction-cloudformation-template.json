@@ -18,6 +18,12 @@
     },
     "secretsPathAmplifyAppId": {
       "Type": "String"
+    },
+    "baseSecretPath": {
+      "Type": "String"
+    },
+    "dbTableNamePostfix": {
+      "Type": "String"
     }
   },
   "Conditions": {
@@ -138,6 +144,12 @@
                   "OPEN_AI_API_KEY"
                 ]
               ]
+            },
+            "BASE_SECRET_PATH": {
+              "Ref": "baseSecretPath"
+            },
+            "DB_TABLE_NAME_POSTFIX": {
+              "Ref": "dbTableNamePostfix"
             }
           }
         },

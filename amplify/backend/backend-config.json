@@ -39,6 +39,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_gptLineBotFunction_baseSecretPath": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "gptLineBotFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_gptLineBotFunction_dbTableNamePostfix": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "gptLineBotFunction"
+        }
+      ]
+    },
     "AMPLIFY_function_gptLineBotFunction_deploymentBucketName": {
       "usedBy": [
         {

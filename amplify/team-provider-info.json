@@ -15,8 +15,10 @@
       "function": {
         "gptLineBotFunction": {
           "deploymentBucketName": "amplify-gptlinebot-dev-140650-deployment",
-          "s3Key": "amplify-builds/gptLineBotFunction-6a4346427433684f314e-build.zip",
-          "secretsPathAmplifyAppId": "dfty365l2nu2"
+          "s3Key": "amplify-builds/gptLineBotFunction-664d6547794275506d44-build.zip",
+          "secretsPathAmplifyAppId": "dfty365l2nu2",
+          "baseSecretPath": "/amplify/dfty365l2nu2/dev/AMPLIFY_gptLineBotFunction_",
+          "dbTableNamePostfix": "-meg6jvxsgzexfkpksxp3g64fg4-dev"
         }
       },
       "api": {

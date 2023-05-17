@@ -4,5 +4,15 @@
     "LINE_CHANNEL_ACCESS_TOKEN",
     "LINE_CHANNEL_SECRET",
     "OPEN_AI_API_KEY"
+  ],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "baseSecretPath",
+      "environmentVariableName": "BASE_SECRET_PATH"
+    },
+    {
+      "cloudFormationParameterName": "dbTableNamePostfix",
+      "environmentVariableName": "DB_TABLE_NAME_POSTFIX"
+    }
   ]
 }
