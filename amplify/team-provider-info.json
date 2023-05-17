@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gptlinebot-dev-140650-authRole",
+      "UnauthRoleArn": "arn:aws:iam::091601576639:role/amplify-gptlinebot-dev-140650-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::091601576639:role/amplify-gptlinebot-dev-140650-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-gptlinebot-dev-140650-deployment",
+      "UnauthRoleName": "amplify-gptlinebot-dev-140650-unauthRole",
+      "StackName": "amplify-gptlinebot-dev-140650",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:091601576639:stack/amplify-gptlinebot-dev-140650/a37fa740-f470-11ed-ad8b-0a3fccd85a4f",
+      "AmplifyAppId": "dfty365l2nu2"
+    },
+    "categories": {
+      "function": {
+        "gptLineBotFunction": {
+          "deploymentBucketName": "amplify-gptlinebot-dev-140650-deployment",
+          "s3Key": "amplify-builds/gptLineBotFunction-6a4346427433684f314e-build.zip"
+        }
+      },
+      "api": {
+        "gptLineBotRestApi": {},
+        "gptLineBotGraphQLApi": {}
+      }
+    }
+  }
+}

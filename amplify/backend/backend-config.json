@@ -1,0 +1,59 @@
+{
+  "api": {
+    "gptLineBotGraphQLApi": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    },
+    "gptLineBotRestApi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "gptLineBotFunction"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "gptLineBotFunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_gptLineBotFunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "gptLineBotFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_gptLineBotFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "gptLineBotFunction"
+        }
+      ]
+    }
+  }
+}
